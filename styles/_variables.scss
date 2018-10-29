@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans ExtraBold";
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+$mainFont: "OpenSans Regular";
+$extraFont: "OpenSans ExtraBold";
+
+$whiteText: "#ffffff";
+$grayText: "#7e8287";
+$btnColor: "#cfc91d";
+$titleColor: "#02918c";
