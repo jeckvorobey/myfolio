@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans ExtraBold";
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+.b-navBar {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.b-navBar__item {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-family: "OpenSans Regular";
+  color: "#7e8287";
+}
+/*# sourceMappingURL=styles.css.map */

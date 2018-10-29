@@ -1,0 +1,11 @@
+@import "variables";
+
+@import "blocks/navBar";
+
+html, body {
+    min-height: 100%;
+}
+body {
+    font-family: $mainFont;
+    color: $grayText;
+}
