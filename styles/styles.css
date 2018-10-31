@@ -26,6 +26,10 @@ html, body {
 
 body {
   font-family: "OpenSans Regular";
-  color: "#7e8287";
+  color: #7e8287;
+}
+
+.navbar {
+  background: #02918c;
 }
 /*# sourceMappingURL=styles.css.map */
