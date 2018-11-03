@@ -1,8 +1,27 @@
 .b-navBar {
-justify-content: flex-end;
+    justify-content: flex-end;
 
-&__item {
-     align-items: flex-end;
-   
-}
+    &__item {
+        width: 496px;
+        justify-content: space-between;
+
+    }
+
+    &_logo {
+        color: $whiteText;
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &_logoSpan {
+        color: $btnColor;
+    }
+
+    &_text {
+        color: $whiteText;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 }
