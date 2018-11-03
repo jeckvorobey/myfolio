@@ -16,6 +16,20 @@ body {
 .navbar a:hover {
     color: $whiteText;
 }
+.navbar-light .navbar-brand {
+    color: $whiteText;
+
+    &:hover {
+        color: $whiteText;
+    }
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $whiteText;
+
+    &:hover {
+        color: $whiteText;
+    }
+}
 
 .header {
     height: 728px;
