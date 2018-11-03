@@ -1,0 +1,43 @@
+.b-desk {
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_location {
+        padding: 0 40px;
+    }
+
+    &__icon {
+        width: 32px;
+        height: 32px;
+        stroke: $titleColor;
+
+        &_location {
+            margin-top: 31px;
+        }
+    }
+
+    &__headline {
+        font-family: $extraFont;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 1.44;
+        text-align: center;
+
+        &_location {
+            margin-top: 29px;
+        }
+    }
+
+    &__text {
+        font-size: 11px;
+        line-height: 1.91;
+        text-align: center;
+
+        &_location {
+            margin: 29px 0 auto;
+        }
+    }
+
+}
