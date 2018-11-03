@@ -3,6 +3,7 @@
 @import "blocks/navBar";
 @import "blocks/header";
 @import "blocks/aboutMe";
+@import "blocks/desk";
 
 html, body {
     min-height: 100%;
@@ -42,4 +43,14 @@ body {
     height: 25px;
     background: url(/images/brace.png) no-repeat;
     margin-top: 48px;
+}
+
+.preview {
+    margin-top: 80px;
+    border-left: #616767 solid 0.3px;
+
+     
+    &:nth-child(1) {
+    border-left: none;
+    }
 }
