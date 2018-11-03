@@ -1,0 +1,63 @@
+.b-header {
+    background: url(/images/headerBg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.b-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.b-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 210px;
+
+    &__item {
+        width: 100%;
+        text-align: center;
+
+        &_desk {
+            color: $whiteText;
+            font-size: 30px;
+            line-height: 0.83;
+        }
+
+        &_slogan {
+            color: $whiteText;
+            font-size: 68px;
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: 20.4px;
+            text-transform: uppercase;
+        }
+
+        &_text {
+            color: $whiteText;
+            font-size: 18px;
+            line-height: 1.83;
+        }
+    }
+
+}
+
+.b-btn {
+    width: 196px;
+    height: 47px;
+    margin-top: 125px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 2.14;
+    letter-spacing: 2.1px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $btnColor;
+    border-color:  $btnColor;
+
+    &:hover {
+        background-color: #fcf310e3;
+        border-color: #ebe422;
+    }
+}
