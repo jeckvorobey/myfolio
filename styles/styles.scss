@@ -2,6 +2,7 @@
 
 @import "blocks/navBar";
 @import "blocks/header";
+@import "blocks/aboutMe";
 
 html, body {
     min-height: 100%;
@@ -12,6 +13,7 @@ body {
 }
 .navbar {
     background: $titleColor;
+    width: 100%;
 }
 .navbar a:hover {
     color: $whiteText;
@@ -32,6 +34,12 @@ body {
 }
 
 .header {
-    height: 728px;
+    height: 640px;
     width: 100%;
+}
+.brace {
+    width: 108px;;
+    height: 25px;
+    background: url(/images/brace.png) no-repeat;
+    margin-top: 48px;
 }

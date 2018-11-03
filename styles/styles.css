@@ -41,18 +41,20 @@
 
 .b-header {
   background: url(/images/headerBg.jpg) no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .b-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .b-title {
@@ -64,7 +66,7 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 210px;
+  margin-top: 170px;
 }
 
 .b-title__item {
@@ -79,6 +81,7 @@
 }
 
 .b-title__item_slogan {
+  font-family: "OpenSans ExtraBold";
   color: #ffffff;
   font-size: 68px;
   font-weight: 800;
@@ -96,7 +99,8 @@
 .b-btn {
   width: 196px;
   height: 47px;
-  margin-top: 125px;
+  margin-top: 52px;
+  font-family: "OpenSans ExtraBold";
   font-size: 14px;
   font-weight: 800;
   line-height: 2.14;
@@ -112,6 +116,47 @@
   border-color: #ebe422;
 }
 
+.b-aboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.b-aboutMe__headline {
+  font-family: "OpenSans ExtraBold";
+  color: #02918c;
+  font-size: 46px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.b-aboutMe__headline_location {
+  margin-top: 98px;
+}
+
+.b-aboutMe__separator {
+  font-size: 16px;
+  line-height: 2.56;
+}
+
+.b-aboutMe__text {
+  font-size: 16px;
+  line-height: 41px;
+}
+
+.b-aboutMe__lead {
+  font-family: "OpenSans ExtraBold";
+  font-size: 23px;
+  line-height: 41px;
+}
+
 html, body {
   min-height: 100%;
 }
@@ -123,6 +168,7 @@ body {
 
 .navbar {
   background: #02918c;
+  width: 100%;
 }
 
 .navbar a:hover {
@@ -146,7 +192,14 @@ body {
 }
 
 .header {
-  height: 728px;
+  height: 640px;
   width: 100%;
+}
+
+.brace {
+  width: 108px;
+  height: 25px;
+  background: url(/images/brace.png) no-repeat;
+  margin-top: 48px;
 }
 /*# sourceMappingURL=styles.css.map */
