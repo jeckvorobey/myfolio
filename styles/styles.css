@@ -210,6 +210,21 @@
   margin: 29px 0 auto;
 }
 
+.b-serviceBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.b-serviceBlock__icon {
+  width: 32px;
+  height: 32px;
+}
+
 html, body {
   min-height: 100%;
 }
