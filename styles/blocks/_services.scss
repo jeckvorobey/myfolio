@@ -1,9 +1,66 @@
+.b-services {
+    background-color: #efefe7;
+
+    &_location {
+        margin-top: 74px;
+        padding: 0 50px;
+    }
+
+    &__headline {
+        font-family: $extraFont;
+        font-size: 46px;
+        font-weight: 800;
+        color: $titleColor;
+    }
+
+    &__separator {
+        font-size: 16px;
+        line-height: 2.56;
+    }
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 2.56;
+    }
+}
+
 .b-serviceBlock {
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    
+
+    &_location {
+        margin-top: 25px;
+        padding: 0 25px;
+    }
 
     &__icon {
         width: 32px;
         height: 32px;
     }
+
+    &__subtitle {
+        font-family: $extraFont;
+        font-size: 16px;
+
+        &_location {
+            margin-top: 21px;
+          
+        }
+    }
+
+    &__text {
+        font-size: 11px;
+        line-height: 21px;
+
+        &_location {
+            margin-top: 19px;
+        }
+    }
+}
+
+.b-picture {
+    background: url(/images/computer-768608__340.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.3;
 }
