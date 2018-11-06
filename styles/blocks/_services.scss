@@ -63,4 +63,8 @@
     background: url(/images/computer-768608__340.jpg) no-repeat;
     background-size: cover;
     opacity: 0.3;
+
+    @media (max-width: 991.98px) {
+        display: none;
+    }
 }
