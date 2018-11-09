@@ -89,7 +89,13 @@
   line-height: 0.83;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
+  .b-title__item_desk {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   .b-title__item_desk {
     font-size: 20px;
   }
@@ -105,7 +111,13 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
+  .b-title__item_slogan {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   .b-title__item_slogan {
     font-size: 36px;
   }
@@ -115,6 +127,12 @@
   color: #ffffff;
   font-size: 18px;
   line-height: 1.83;
+}
+
+@media (max-width: 767.98px) {
+  .b-title__item_text {
+    font-size: 10px;
+  }
 }
 
 .b-btn {
@@ -133,6 +151,12 @@
   width: 196px;
   height: 47px;
   margin-top: 52px;
+}
+
+@media (max-width: 768.98px) {
+  .b-btn_location {
+    margin-top: 20px;
+  }
 }
 
 .b-btn:hover {
@@ -192,6 +216,13 @@
   font-family: "OpenSans ExtraBold";
   font-size: 23px;
   line-height: 41px;
+}
+
+@media (max-width: 767.98px) {
+  .b-aboutMe__lead {
+    font-size: 16px;
+    line-height: 21px;
+  }
 }
 
 .b-desk {
@@ -346,6 +377,18 @@
   margin-top: 110px;
 }
 
+@media (max-width: 991.98px) {
+  .b-myWork__headline_location {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .b-myWork__headline_location {
+    margin-top: 20px;
+  }
+}
+
 .b-myWork__separator {
   font-size: 16px;
   line-height: 41px;
@@ -361,6 +404,12 @@
   padding: 0 270px;
 }
 
+@media (max-width: 991.98px) {
+  .b-myWork__text_location {
+    padding: 0;
+  }
+}
+
 .b-content {
   padding-left: 0;
   padding-right: 0;
@@ -372,6 +421,13 @@
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
+}
+
+@media (max-width: 767.98px) {
+  .b-content_location {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 .b-item {
@@ -536,7 +592,13 @@ body {
   width: 100%;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 768.98px) {
+  .header {
+    height: 360px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   .header {
     height: 460px;
   }
@@ -547,6 +609,12 @@ body {
   height: 25px;
   background: url(/images/brace.png) no-repeat;
   margin-top: 48px;
+}
+
+@media (max-width: 768.98px) {
+  .brace {
+    margin-top: 12px;
+  }
 }
 
 .preview {
@@ -573,9 +641,21 @@ body {
   background-color: #efefe7;
 }
 
+@media (max-width: 991.98px) {
+  .sevices {
+    margin-top: 0;
+  }
+}
+
 .content {
   margin-top: 78px;
   height: calc(238px*2);
+}
+
+@media (max-width: 991.98px) {
+  .content {
+    margin-top: 18px;
+  }
 }
 
 .content:nth-child(6) {
