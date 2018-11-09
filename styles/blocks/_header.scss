@@ -31,7 +31,11 @@
             font-size: 30px;
             line-height: 0.83;
 
-            @media (max-width: 991.98px) {
+            @media (max-width: 767.98px) {
+                font-size: 12px;
+            }
+
+            @media (min-width: 768px) and (max-width: 991.98px) {
                 font-size: 20px;
             }
         }
@@ -45,7 +49,11 @@
             letter-spacing: 20.4px;
             text-transform: uppercase;
 
-            @media (max-width: 991.98px) {
+            @media (max-width: 767.98px) {
+                font-size: 15px;
+            }
+
+            @media (min-width: 768px) and (max-width: 991.98px) {
                 font-size: 36px;
             }
         }
@@ -54,6 +62,10 @@
             color: $whiteText;
             font-size: 18px;
             line-height: 1.83;
+
+            @media (max-width: 767.98px) {
+                font-size: 10px;
+            }
         }
     }
 
@@ -75,6 +87,10 @@
         width: 196px;
         height: 47px;
         margin-top: 52px;
+
+        @media (max-width: 768.98px) {
+            margin-top: 20px;
+        }
     }
 
     &:hover {
