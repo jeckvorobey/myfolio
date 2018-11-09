@@ -39,5 +39,10 @@
         font-family: $extraFont;
         font-size: 23px;
         line-height: 41px;
+
+        @media (max-width: 767.98px) {
+            font-size: 16px;
+            line-height: 21px;
+        }
     }
 }
