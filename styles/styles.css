@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(d:\Документы\Программирование\Вэб Разработка\templates\myfolio\packages\bootstrap-4.1.3\css\bootstrap.css);
+@import url(../packages/bootstrap-4.1.3/css/bootstrap.css);
 @font-face {
   font-family: "OpenSans Regular";
   src: url(../fonts/OpenSans-Regular.ttf);
@@ -42,7 +42,7 @@
 }
 
 .b-header {
-  background: url(/images/headerBg.jpg) no-repeat;
+  background: url(../images/headerBg.jpg) no-repeat;
   background-size: 100%;
 }
 
@@ -340,7 +340,7 @@
 }
 
 .b-picture {
-  background: url(/images/computer-768608__340.jpg) no-repeat;
+  background: url(../images/computer-768608__340.jpg) no-repeat;
   background-size: cover;
   opacity: 0.3;
 }
@@ -607,7 +607,7 @@ body {
 .brace {
   width: 108px;
   height: 25px;
-  background: url(/images/brace.png) no-repeat;
+  background: url(../images/brace.png) no-repeat;
   margin-top: 48px;
 }
 
