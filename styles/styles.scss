@@ -61,7 +61,7 @@ body {
 .brace {
     width: 108px;;
     height: 25px;
-    background: url(/images/brace.png) no-repeat;
+    background: url(../images/brace.png) no-repeat;
     margin-top: 48px;
 
     @media (max-width: 768.98px) {
@@ -98,7 +98,6 @@ body {
 
 .content {
     margin-top: 78px;
-    height: calc(238px*2);
 
     @media (max-width: 991.98px) {
         margin-top: 18px;
