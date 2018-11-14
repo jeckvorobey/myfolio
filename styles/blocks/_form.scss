@@ -8,6 +8,10 @@
     &_location {
         margin-top: 70px;
         padding-bottom: 70px;
+
+        @media (max-width: 991.98px) {
+            margin-top: 30px;
+        }
     }
 
     // &__name {
