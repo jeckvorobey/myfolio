@@ -1,5 +1,4 @@
-@charset "UTF-8";
-@import url(d:\Документы\Программирование\Вэб Разработка\templates\myfolio\packages\bootstrap-4.1.3\css\bootstrap.css);
+@import url(../packages/bootstrap-4.1.3/css/bootstrap.css);
 @font-face {
   font-family: "OpenSans Regular";
   src: url(../fonts/OpenSans-Regular.ttf);
